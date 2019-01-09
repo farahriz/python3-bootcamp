@@ -1,7 +1,7 @@
-print("How many times do I have to tell you? ")
-num = int(input())
+num = input("How many times do I have to tell you? ")
+num = int(num)
 
-for x in range(0,num):
+for x in range(num):
 	print("CLEAN UP YOUR ROOM")
 
 # for x in range(1,10):
